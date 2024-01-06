@@ -5,7 +5,7 @@ fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
             let array = data.data;
 
             let html = document.getElementById('table');
-            let index =1;
+            let stt =1;
 
             let child_html = `<table class="table">
                     <thead>
@@ -22,7 +22,7 @@ fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
                 console.log(element);
                 child_html += `<tbody>
                         <tr>
-                            <td>${index++}</td>
+                            <td>${stt++}</td>
                             <td>${element.Nation}</td>
                             <td>${element.Year}</td>
                             <td>${element.Population}</td>

@@ -7,7 +7,7 @@ fetch("https://65929f4fbb129707198fe18e.mockapi.io/tinhpv10/students")
 
         let html = document.getElementById('table');
 
-        let index = 1;
+        let stt = 1;
 
         let child_html = `<table class="table">
     <thead>
@@ -24,7 +24,7 @@ fetch("https://65929f4fbb129707198fe18e.mockapi.io/tinhpv10/students")
             child_html += `
       <tbody>
         <tr>
-          <td>${index++}</td>
+          <td>${stt++}</td>
           <td><img src="${element.avatar}" alt="${element.name}"></td>
           <td>${element.name}</td>
           <td>${element.createdAt}</td>
