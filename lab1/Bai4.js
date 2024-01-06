@@ -1,3 +1,12 @@
+<<<<<<<<< Temporary merge branch 1
+fetch("https://api.publicapis.org/entries")
+    .then(function (response){
+        response.json().then(function (data){
+            console.log(data);
+            let array = data.entries;
+
+            let html = document.getElementById('table');
+=========
 fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
     .then(function (response){
         response.json().then(function (data){
@@ -26,6 +35,7 @@ fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
                             <td>${element.Nation}</td>
                             <td>${element.Year}</td>
                             <td>${element.Population}</td>
+>>>>>>>>> Temporary merge branch 2
                         </tr>
                         
                         </tbody>`
