@@ -1,4 +1,3 @@
-
 fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
     .then(function (response){
         response.json().then(function (data){
@@ -27,7 +26,6 @@ fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
                             <td>${element.Nation}</td>
                             <td>${element.Year}</td>
                             <td>${element.Population}</td>
-
                         </tr>
                         
                         </tbody>`
