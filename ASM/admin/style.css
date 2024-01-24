@@ -39,7 +39,7 @@ body {
     padding: 5px;
     align-items: center;
     justify-content: space-between;
-    background-color: #00ff0d;
+    background-color: #72ff79;
     color: white;
 }
 .top img{
@@ -56,7 +56,7 @@ body {
 }
 .col-md-2 button{
     padding: 10px;
-    background-color: #00ff0d;
+    background-color: #72ff79;
     color: white;
     border: none;
     border-radius: 5px;
@@ -73,7 +73,7 @@ body {
 footer{
     margin: 0px;
     padding: 10px;
-    background-color: #00ff0d;
+    background-color: #72ff79;
     text-align: center;
     color: white;
 }
